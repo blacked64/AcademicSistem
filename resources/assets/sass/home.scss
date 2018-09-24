@@ -1,0 +1,105 @@
+.navb{
+    background: #333333;
+    width: 19%;
+    height: 100%;
+    border-right: 2px solid #575757;
+}
+#app{
+    background-color: #ebebeb;
+    color: #000000;
+    height: 100%;
+    width: 100%;
+}
+.content {
+    width: 81%;
+    margin-left: 19%;
+}
+
+//Footer
+.footer { 
+    margin-left: 270px;
+    background: $body-bg;
+    padding-left: 10px;
+}
+
+.navbar-option{
+    list-style: none;
+    padding: 18px 18px 18px 30px;
+    margin: 8px auto;
+    width: 90px;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-option a{
+    color: $color-navbar-a;
+    font-size: 2em;
+    transition: 0.3s ease-in-out;
+}
+.navbar-option a:hover{
+    text-decoration: none;
+    color: #F5F8FA;
+}
+.navbar-option:hover{
+    background: #575757;
+    border-radius: 15px 50px 30px;
+}
+.image-home{
+    width: 1160px;
+    height: 680px;
+}
+.button{
+    background: none;
+    border: none;
+    color: $color-navbar-a;
+}
+.bar-md{
+    height: 18%;
+    background-color: #151811;
+    border-radius: 0px 0px 15px;
+}
+
+.navbar-option-md{
+    width: 191px;
+    height: 50px;
+    transition: 0.3s ease-in-out;
+    margin: 8px;
+}
+
+.navbar-option-md a{
+    color: $color-navbar-a;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    padding: 7px;
+    text-align: center;
+}
+.navbar-option-md a:hover{
+    background-color: #575757;
+}
+    #collapsibleNavId{
+        background-color: #343A40;
+    }
+
+.content-contact{
+    margin-top: 80px;
+    width: 100%;
+}
+.content-contact input,.content-contact textarea{
+    background-color: #263238;
+    width: 100%;
+    height: 100%;
+}
+.content-contact input{
+    margin-bottom: 16px;
+    height: 81px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+.content-contact textarea{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+
